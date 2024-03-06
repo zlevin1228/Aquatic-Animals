@@ -1,0 +1,220 @@
+body.floor {
+  background-image: url(ocean.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}
+
+body.fishies {
+  background-image: linear-gradient(#7fcdff, #1da2d8, #064273);
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+h1.title {
+  font-family: 'Waterfall';
+  font-size: 100px;
+  text-align: center;
+  color: white;
+}
+
+button.whale {
+  background-color: transparent;
+  border: none;
+  bottom: 20px;
+  margin-left: 120px;
+  scale: 150%;
+}
+
+button.whale:hover {
+  scale: 175%;
+}
+
+img.seahorses {
+  width: 74.5px;
+  height: 116px;
+}
+
+button.seahorse {
+  background-color: transparent;
+  border: none;
+  padding-left: 1000px;
+  top: 200px;
+  position: relative;
+}
+
+button.seahorse:hover {
+scale: 120%;
+position: relative;
+}
+
+button.starfish {
+  background-color: transparent;
+  border: none;
+  padding-left: 700px;
+  padding-top: 290px;
+  height: 150px;
+  width: 200px;
+}
+
+img.star {
+  height: 150px;
+  width: 200px;
+}
+
+button.starfish:hover {
+scale: 120%;
+}
+
+button.pufferfish {
+  background-color: transparent;
+  border: none;
+  top: -350px;
+  left: -100px;
+  position: relative;
+}
+
+img.puff {
+  scale: 35%;
+}
+
+button.pufferfish:hover {
+  scale: 120%;
+  position: relative;
+}
+
+button.squid {
+  background-color: transparent;
+  border: none;
+  position: relative;
+  left: 800px;
+  bottom: 900px;
+  scale: 60%;
+}
+
+button.squid:hover {
+  scale: 90%;
+  position: relative;
+}
+
+div.title {
+  background-color: none;
+  font-family: 'Waterfall';
+  width: 1000px;
+  height: 100px;
+  color: white;
+  margin: auto;
+  text-align: center;
+  font-size: 85px;
+  position: relative;
+  top: 90px;
+}
+
+button.toon {
+  height: 320px;
+  width: 453px;
+  top: 50px;
+  position: relative;
+  left: 1000px;
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: 5px;
+}
+
+img.toon#pufferfish {
+  width: 322.5px;
+  height: 289.875px;
+  top: 0px;
+  position: relative;
+}
+
+img.toon {
+  height: 267px;
+  width: 400px;
+  top: 0px;
+  position: relative;
+}
+
+img.toon#squid {
+  height: 305.25px;
+  width: 215px;
+  top: 0px;
+  position: relative;
+}
+
+img.toon#starfish {
+  height: 273.3333px;
+  width: 286.6667px;
+  top: 0px;
+  position: relative;
+}
+
+img.toon#seahorse {
+  height: 300.5px;
+  width: 300.5px;
+  top: 0px;
+  position: relative;
+  left: 20px;
+}
+
+button#whale:hover {
+  transform: rotate(360deg);
+  transition: 3s;
+}
+
+button#squid:hover {
+  transition: 3s;
+  opacity: 0.5
+}
+
+button#pufferfish:hover {
+  transition: 3s;
+  transform: scale(2);
+}
+
+button#starfish:hover {
+  transition: 3s;
+  transform: scale(1.5) rotate(360deg);
+}
+
+p.intro {
+  color: white;
+  font-size: 18px;
+  left: 475px;
+  position: relative;
+  top: -200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p.body {
+  color: white;
+  font-size: 18px;
+  left: 475px;
+  position: relative;
+  top: -200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.video {
+  text-align: center;
+  margin: auto;
+  border: 6px solid black;
+  position: relative;
+  top: -150px;
+  border-color: white;
+  height: 315px;
+  width: 560px;
+  border-radius: 15px;
+}
+
+button.goback {
+  text-align: center;
+  background-color: #188dfb;
+  border: 4px solid black;
+  border-color: white;
+  border-radius: 5px;
+  left: 925px;
+  position: relative;
+  top: -100px;
+}
